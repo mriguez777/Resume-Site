@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div>
+        <!-- For some reason the responsive button on this navbar would not drop down for me in my browser. I tested it with noth the boostrap page (it works there) and regular code (no modifications) but still no luck on my page. Good news is the button appears when it is supposed to when you shrink the page, so that is a plus.   -->
+        <!-- Later I realize that the navbar is within the containter to keep the size of the main content. I was being dumb and included the header and footer thinking that the instructions called for that. So now the header and footer are out of the container -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <a class="navbar-brand" href="index.html">Michael Rodriguez</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container-md mt-auto mb-auto">
+            <h1>Games</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://mriguez777.github.io/unit-4-game/"><img src="assets/images/crystal.png"
+                            class="img-responsive" width="100%" height="75%" /> Crystal Collector
+                </div></a>
+                <div class="col-md-4"><a href="https://mriguez777.github.io/TriviaGame/"><img
+                            src="assets/images/Trivia.png" class="img-responsive" width="100%" height="75%" />Trivia
+                        Game
+                </div></a>
+                <div class="col-md-4"><a href="https://mriguez777.github.io/get-giphy/"><img
+                            src="assets/images/giphy.GIF" class="img-responsive" width="100%" height="75%" />Getting
+                        Giphy With It
+                    </a></div>
+            </div>
+            <br>
+            <h1>Projects</h1>
+            <div class="row">
+                <div class="col-md-4"><a href="https://sanakeexiong1.github.io/project-one/"><img src="assets/images/FanPagester.png" class="img-responsive" width="100%" /></a>
+                    <p>Title: FanPagester<br>
+                    Webpage:<a href="https://sanakeexiong1.github.io/project-one/">Click Here</a><br>
+                    Git Hub Repo: <a href="https://github.com/sanakeexiong1/project-one">Click Here</a></p>
+                </div>
+                <div class="col-md-4"><img src="assets/images/portfolio2.jpeg" class="img-responsive" width="100%" />Place Holder
+                </div>
+                <div class="col-md-4"><img src="assets/images/portfolio3.jpeg" class="img-responsive" width="100%" />Place Holder
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br />
+    <!-- Just adding some fun to the footer -->
+    <footer class="footer mt-auto py-3 bg-info">
+        <div class="container">
+            <span class="text-white">IT Technician / Junior Full-Stack Developer</span>
+        </div>
+    </footer>
+</body>
+
+</html>

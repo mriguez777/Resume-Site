@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div>
+    <!-- For some reason the responsive button on this navbar would not drop down for me in my browser. I tested it with noth the boostrap page (it works there) and regular code (no modifications) but still no luck on my page. Good news is the button appears when it is supposed to when you shrink the page, so that is a plus.   -->
+    <!-- Later I realize that the navbar is within the containter to keep the size of the main content. I was being dumb and included the header and footer thinking that the instructions called for that. So now the header and footer are out of the container -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <a class="navbar-brand" href="index.html">Michael Rodriguez</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link active" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-md">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Contact</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+            <p><strong>Phone:</strong>(720) 498-3847</p>
+            <p><strong>Email:</strong> mriguez777@gmail.com</p>
+            <p><strong>Availability:</strong></p>
+            <ul>
+                <li><strong>Mon-Fri:</strong> 8am to 6pm MST</li>
+                <li><strong>Sat:</strong> 8am to 12pm MST</li>
+                <li><strong>Sun:</strong> Off</li>
+            </ul>
+            </div>
+            <div class="col-md-6">
+                <strong>Business Links:</strong>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/michael-rodriguez-35986049">Linked-In</a></li>
+                    <li><a href="https://github.com/mriguez777">Git Hub</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Just adding some fun to the footer -->
+    <footer class="footer mt-auto py-3 bg-info">
+        <div class="container">
+            <span class="text-white">IT Technician / Junior Full-Stack Developer</span>
+        </div>
+    </footer>
+</body>
+
+</html>
