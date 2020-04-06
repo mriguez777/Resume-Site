@@ -20,3 +20,8 @@ body {
 .footer {
     text-align: center;
 }
+
+#linkedin,
+#github {
+    width: 50px;
+}
